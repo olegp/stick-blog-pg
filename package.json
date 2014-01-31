@@ -1,0 +1,23 @@
+{
+  "name":"stick-blog-pg",
+  "keywords":["blog","postgres", "stick","common-node"],
+  "description":"Simple PostgreSQL backed blog engine built using Stick middleware",
+  "version":"1.0.0",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/olegp/stick-blog-pg.git"
+  },
+  "main":"./lib/server.js",
+  "engines":{
+    "node":"*"
+  },
+  "dependencies":{
+    "pg-sync":">=0.1.0",
+    "mustache":">=0.7.3",
+    "stick":">=0.1.0",
+    "marked": ">= 0.3.0"
+  },
+  "devDependencies":{
+    "common-node":">=0.2.0"
+  }
+}
